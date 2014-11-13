@@ -57,6 +57,7 @@ typedef NS_ENUM(NSInteger, KASlideShowSlideMode) {
 - (void)setFrame:(CGRect)frame {
     [super setFrame:frame];
     
+    // These shouldn't be here.
 //    _topImageView.frame = frame;
 //    _bottomImageView.frame = frame;
 }
